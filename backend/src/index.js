@@ -17,8 +17,10 @@ app.use('/api/projects', require('./routes/projects'));
 app.use('/api/tasks', require('./routes/tasks'));
 
 // For any non-API route, serve index.html
-app.get('*', (req, res) => {
+app.get('/*', (req, res) => {
   res.sendFile(path.join(frontendPath, 'index.html'));
 });
 
-app.listen(process.env.PORT || 4000, () => console.log('Server on', process.env.PORT || 4000));
+// app.listen(process.env.PORT || 4000, () => console.log('Server on', process.env.PORT || 4000));
+const PORT = process.env.PORT || 4000;
+app.listen(PORT, () => console.log('Server running on port', PORT));
