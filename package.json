@@ -6,7 +6,7 @@
     "build": "cd frontend && npm install && npm run build",
     "postinstall": "cd backend && npm install && cd ../frontend && npm install"
   },
-  "engines": {
-    "node": "18.x"
-  }
+     "engines": {
+      "node": "20.x"
+    }
 }
