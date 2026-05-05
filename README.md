@@ -1,6 +1,6 @@
 # 📝 Task Manager Application
 
-A modern, collaborative Task Management and Project Tracking web application built with the MERN/Node.js stack. Designed with a sleek dark-mode interface, this application helps teams organize their work efficiently through customizable projects and Kanban-style task boards.
+A modern, collaborative Task Management and Project Tracking web application built with the PERN/Node.js stack. Designed with a sleek dark-mode interface, this application helps teams organize their work efficiently through customizable projects and Kanban-style task boards.
 
 ## 📖 Long Description
 
